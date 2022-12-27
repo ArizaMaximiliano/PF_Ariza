@@ -41,7 +41,7 @@ html{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-content: center;
-    background-image: url(/img/pexels-skitterphoto-1448561.jpg);
+    background-image: url(../img/pexels-skitterphoto-1448561.jpg);
     background-size: cover;
     background-position: center;
 }
