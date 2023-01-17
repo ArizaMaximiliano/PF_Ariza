@@ -1,0 +1,76 @@
+.headerProjects{
+    height: 80px;
+    padding: 25px;
+    background-color: $color-primario;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    & .logo{
+        float: left;
+        font-weight: bold;  
+        a{
+            text-decoration: none;
+            color: $color-secundario;
+        }
+    }
+    & .nav{
+        float: right;
+    }
+    & .links{
+        li{
+            list-style: none;
+            display: inline-block;
+            a{
+                padding: 0 5px;
+                text-decoration: none;
+                color: $color-secundario;
+                &:hover{
+                    color: $color-detalles;
+                }
+            }
+        }
+    }
+}
+
+.mainProjects{
+    height: calc(100vh - 80px);
+    padding: 15px;
+    background-color: $color-secundario;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    & .sectionProjectOne{
+        float: right;
+        text-align: right;
+    }
+    & .sectionProjectTwo{
+        float: left;
+        text-align: left;
+    }
+    & .sectionProjectThree{
+        float: right;
+        text-align: right;
+    }
+}
+
+.footerProjects{
+    height: 80px;
+    background-color: $color-primario;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: $color-secundario;
+    padding: 30px;
+    img{
+        height: 40px;
+        width: 40px;
+        float: left;
+    }
+    span{
+        float: left;
+        padding: 10px;
+    }
+    & .redes{
+        float: right;
+        letter-spacing: 10px;
+    }
+}
+
+/* --------Projects-------- */

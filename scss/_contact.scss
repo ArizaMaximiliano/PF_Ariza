@@ -1,0 +1,81 @@
+.headerContact {
+    height: 80px;
+    padding: 25px;
+    background-color: $color-primario;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+
+    & .logo {
+        float: left;
+        font-weight: bold;
+
+        a {
+            text-decoration: none;
+            color: $color-secundario;
+        }
+    }
+
+    & .nav {
+        float: right;
+    }
+
+    & .links {
+        li {
+            list-style: none;
+            display: inline-block;
+
+            a {
+                padding: 0 5px;
+                text-decoration: none;
+                color: $color-secundario;
+
+                &:hover {
+                    color: $color-detalles;
+                }
+            }
+        }
+    }
+}
+
+.mainContact {
+    height: calc(100vh - 80px);
+    background-color: $color-secundario;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 15%;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.footerContact {
+    height: 80px;
+    background-color: $color-primario;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: $color-secundario;
+    padding: 30px;
+
+    img {
+        height: 40px;
+        width: 40px;
+        float: left;
+    }
+
+    span {
+        float: left;
+        padding: 10px;
+    }
+
+    & .redes {
+        float: right;
+        letter-spacing: 10px;
+    }
+}
+
+/* --------Contact-------- */
