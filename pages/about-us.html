@@ -1,49 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Información personal Arbit">
+    <meta name="keywords" content="coderhouse ingenieria arduino raspberry c c++ pic assembler electronica proyectos">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Arbit</title>
+    <!--  -->
+    <title>Sobre mí</title>
 </head>
 
-<body class="aboutUs">
-    <header class="headerAboutUs">
-        <div class="logo">
-            <a href="../index.html">
-                <img src="" alt=""> 
+<body class="aboutUsBody">
+
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="hideMenu">
                 <span>ARBIT</span>
-            </a>
+                <div class="links">
+                    <div class="link link1">
+                        <a href="../pages/projects.html">Projects</a>
+                    </div>
+                    <div class="link link2">
+                        <a href="../pages/future.html">Future</a>
+                    </div>
+                    <div class="link link3">
+                        <a href="../pages/about-us.html">About us</a>
+                    </div>
+                    <div class="link link4">
+                        <a href="../pages/contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav class="nav">
-            <ul class="links">
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./future.html">Future</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/arbitLogo.png" alt="logo Arbit">
+                </a>
+            </div>
+
         </nav>
-    </header>
-    
-    <main class="mainAboutUs">
-        <!-- <img src="" alt="">  //todavia no tengo img--> 
-        <h1>About Us</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, excepturi dolorem? Asperiores libero fuga ipsam nostrum beatae quidem doloremque cupiditate est? Optio eligendi vel est! Necessitatibus accusamus, amet fugit voluptatibus at est dicta, blanditiis quae cupiditate voluptas tempora in rerum expedita vitae quo rem esse illo unde mollitia minus quaerat quas obcaecati numquam sint? Deserunt soluta corrupti hic? Doloribus ipsum expedita corrupti ducimus eius nam minima quae, rerum, voluptate ipsam unde aut. Rem, incidunt iste, temporibus architecto sed optio pariatur nulla repellat, possimus at illum. Numquam possimus quo voluptate molestiae! Natus voluptas, ducimus rerum ea dolorum in amet, iste soluta asperiores distinctio maxime incidunt sint possimus temporibus assumenda molestiae consequuntur eveniet enim vitae minus animi eaque. Cumque laborum molestias quia recusandae culpa aperiam, itaque exercitationem nobis dolore minus iure necessitatibus, autem, veritatis id. Et molestias enim reprehenderit ab magni ipsam provident aut ut pariatur veniam! Beatae, eaque quibusdam. Nesciunt quam, natus obcaecati quaerat autem similique eum. Molestias ducimus voluptatem, iure, maiores asperiores ut labore consequatur libero, similique deserunt fugiat velit. Id, a cupiditate. Soluta aliquid veritatis recusandae cum illum. Aut debitis ad tempore facilis iure voluptatum a quas amet. Ex explicabo nihil ab numquam maxime alias vero provident omnis itaque!
+    </div>
+
+    <div class="aboutUs">
+        <div class="tabla">
+            <h2 class="titulo1">Ariza, Maximiliano</h2>
+            <h2 class="titulo2">Estudiante</h2>
+            <P class="dato1">Mi vision a futuro es conseguir un trabajo para financiar los proyectos que tengo en mente.
+                Ahora soluciono problemas cotidianos o prototipo mejoras para facilitar trabajos. </P>
+            <P class="dato2">En 2019 me recibí de Técnico Electrónico. Actualmente estoy cursando Ingeniería Electrónica
+                en la institución FCEIA y la carrera Desarrollo Full Stack en Coderhouse. </P>
+            <div class="dato3">
+                <span>maximiliano.ariza01@hotmail.com</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="info3">
+        <p>
+            Al desarrollar un proyecto primero hago el diseño en simuladores y testeo el circuito. El siguiente paso es
+            comprobar su funcionamiento de forma física utilizando una protoboard. Una vez funcionando, comienzo con el
+            diseño del PCB electrónico y el modelado 3D de la carcasa. Generalmente el primer prototipo es de prueba,
+            este lo utilizo para realizar las medidas correspondientes mediante un multímetro y osciloscópio.
         </p>
-    </main>
-    
-    <footer class="footerAboutUs">
-        <img src="../img/arbitLogo.png" alt="">
-        <span>ARBIT</span>
+    </div>
+
+    <div class="info4">
         <div class="redes">
             <a href=""><i class="fa-brands fa-github"></i></a>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
-    </footer>
+    </div>
+
+
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <!--  -->
+
 </body>
 
 </html>

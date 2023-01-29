@@ -1,60 +1,35 @@
-.headerFuture{
-    height: 80px;
-    padding: 25px;
-    background-color: $color-primario;
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
-    & .logo{
-        float: left;
-        font-weight: bold;  
-        a{
-            text-decoration: none;
-            color: $color-secundario;
-        } 
-    }
-    & .nav{
-        float: right;
-    }
-    & .links{
-        li{
-            list-style: none;
-            display: inline-block;
-            a{
-                padding: 0 5px;
-                text-decoration: none;
-                color: $color-secundario;
-                &:hover{
-                    color: $color-detalles;
-                }
-            }
-        }
+.carousel {
+    height: calc(100vh - 55px);
+    width: auto;
+
+    box-shadow: -5px 4px 10px $color-primario;
+
+    & img {
+        height: calc(100vh - 55px);
+        width: 100%;
+        object-fit: cover;
     }
 }
 
-.mainFuture{
-    height: calc(100vh - 80px);
+.goProject {
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
     background-color: $color-secundario;
+    color: black;
+
+    & a {
+        margin-bottom: 10px;
+        padding: 2px 5px;
+        border-radius: 8% 0;
+        border: 2px solid $color-primario;
+        text-decoration: none;
+        color: black;
+    }
 }
 
-.footerFuture{
-    height: 80px;
-    background-color: $color-primario;
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
-    color: $color-secundario;
-    padding: 30px;
-    img{
-        height: 40px;
-        width: 40px;
-        float: left;
-    }
-    span{
-        float: left;
-        padding: 10px;
-    }
-    & .redes{
-        float: right;
-        letter-spacing: 10px;
-    }
-}
 /* --------Future-------- */
