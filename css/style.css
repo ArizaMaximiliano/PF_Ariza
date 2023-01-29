@@ -695,7 +695,7 @@ footer {
   box-shadow: -2px -1px 15px 5px #0f0e17;
 }
 footer img {
-  height: 200px;
+  height: 180px;
   width: auto;
   margin: auto auto;
   object-fit: cover;
@@ -720,7 +720,7 @@ footer .redes {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 25px;
   padding: 5px 0;
 }
@@ -729,6 +729,11 @@ footer .redes a {
 }
 
 /* @media */
+@media (min-width: 801px) {
+  footer {
+    height: 400px;
+  }
+}
 @media (min-width: 500px) and (max-width: 800px) {
   .galleryProject {
     height: 1200px;
